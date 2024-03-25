@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rong Yuan">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Rong's website">
+    <title>Rong Yuan</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script defer src="static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1 id="webname">Rong Yuan</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="views/cv.html">CV</a>
+            <a href="views/contact.html">Contact Me</a>
+            <a href="views/fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>     
+        </nav>
+    </header>
+    <div class="main"> 
+        <h2 id="greeting"> </h2>
+        <img src="static/rongyuan.png" alt="Rong Yuan profile image" width="350px" class="classA"> 
+        <!-- <p id="intro">Hello World! This is Rong Yuan. Nothing much to say here. I am from Nanjing, China and currectly studying IS in Carnegie Mellon University.</p> -->
+        <div class="classA">
+            <span id="shortIntro">Hello World! This is Rong Yuan.</span>
+            <span id="readMore"> read more ...</span>
+            <span id="longIntro">Hello World! This is Rong Yuan. Nothing much to say here. I am from Nanjing, China and currectly studying IS in Carnegie Mellon University.</span>
+            <span id="readLess"> read less</span>
+        </div>
+        <div class="classA"></div>
+    </div>
+    <footer> 
+        <p id="copyYear">Rong Yuan &copy</p>
+    </footer>
+    <body onload=" addYear()"></body>
+</body>
+</html>
